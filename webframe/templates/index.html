@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Amazon Review's Sentiments </title>
+		<center><h1><b><i> GET Sentiments </i></b></h1></center>
+	</head>
+
+	<body bgcolor = 'skyblue'>
+		<h2> search here </h2>
+		{% from "_formhelpers.html" import render_field %}
+		<form method = post>
+			<dl>
+				<p>
+				{{ render_field(form.search) }}
+
+			</dl>
+			<p> <input type = submit value=Search>
+		</form>
+	</body>
+</html>
+
