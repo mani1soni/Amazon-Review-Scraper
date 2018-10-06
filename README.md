@@ -1,2 +1,2 @@
-# scrapy
-Amazon's customer reviews scrapped using python-scrapy
+# Scrapy
+Amazon's customer reviews scraped using python-scrapy
